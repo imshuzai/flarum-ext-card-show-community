@@ -10,7 +10,7 @@ A [Flarum](http://flarum.org) extension. show your photos
 
 此项目依赖：
 
-https://github.com/HamCQ/flarum-ext-auth-phone
+~~https://github.com/HamCQ/flarum-ext-auth-phone~~
 
 ```
 composer require hamcq/flarum-ext-auth-phone
