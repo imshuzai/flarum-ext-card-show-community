@@ -15,9 +15,9 @@ class AddController implements RequestHandlerInterface
     {
         $actor = RequestUtil::getActor($request);
         $actor->assertRegistered();
-        if(!$actor->phone){
-            throw new ValidationException(['msg' => "请先完成手机号认证"]);
-        }
+        //if(!$actor->phone){
+            //throw new ValidationException(['msg' => "请先完成手机号认证"]);
+        //}
 
         return new JsonResponse( resolve(AddLogic::class)->save($actor, $request->getParsedBody()) );
     }
