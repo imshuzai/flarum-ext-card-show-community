@@ -4,6 +4,8 @@
 
 A [Flarum](http://flarum.org) extension. show your photos
 
+注释了验证手机号相关的代码。
+
 ## Installation
 
 此项目依赖：
